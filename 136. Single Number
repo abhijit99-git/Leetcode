@@ -1,0 +1,27 @@
+public class Solution {
+    public int SingleNumber(int[] nums) {
+                    int i;
+            bool res = false;
+            for(i=0;i<nums.Length;i++)
+            {
+                for(int k=0;k<nums.Length;k++)
+                {
+                    if (i != k)
+                    {
+                        if (nums[i] == nums[k])
+                        {
+                            res = true;
+                            break;
+                        }
+                        else
+                            res = false;
+                    }
+                }
+                if(res==false)
+                {
+                    return nums[i];
+                }
+            }
+            return 0;
+    }
+}
