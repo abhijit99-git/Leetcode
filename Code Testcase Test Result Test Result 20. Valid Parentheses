@@ -1,0 +1,48 @@
+public class Solution {
+    public bool IsValid(string s)
+    {
+       int len = s.Length;
+
+ int[] arr = new int[len + 1];
+ int k = 0;
+ bool isValid = true;
+
+ for (int i = 0; i < len; i++)
+ {
+     if (s[i] == '(' || s[i] == '{' || s[i] == '[')
+     {
+         arr[k] = s[i];
+         k++;
+     }
+     else if (s[i] == ')' || s[i] == '}' || s[i] == ']')
+     {
+         if (k == 0)
+         {
+             isValid = false;
+             break;
+         }
+
+         if (s[i] == ')' && arr[k - 1] == '(' ||  s[i] == '}' && arr[k - 1] == '{' || s[i] == ']' && arr[k - 1] == '[')
+         {
+             k--;
+         }
+         else
+         {
+             isValid = false;
+             break;
+         }
+     }
+ }
+
+     if (isValid && k == 0)
+    {
+       return true;
+    }
+    else
+     {
+       return false;
+     }
+
+ Console.ReadLine();
+}
+}
