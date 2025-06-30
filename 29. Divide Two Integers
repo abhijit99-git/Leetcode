@@ -1,0 +1,15 @@
+public class Solution {
+    public int Divide(long dividend, long divisor) {
+
+        long solution;
+
+            if(dividend== -2147483648 && divisor==-1)
+            {
+                solution = 2147483647;
+            }
+            else
+                solution = dividend / divisor;        
+
+        return (int)solution;
+    }
+}
