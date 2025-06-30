@@ -1,2 +1,2 @@
 # Leetcode
-Includes all my solved leetcode problems till date
+Includes some of mine solved DSA problems 
