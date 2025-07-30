@@ -7,6 +7,7 @@ This repository contains some of my **solved Data Structures and Algorithms (DSA
 I'm a **Bachelor of Computer Applications (BCA)** graduate from India, passionate about programming, backend development, and solving real-world problems through clean and efficient code.
 
 🔗 **LinkedIn:** [Abhijit Tikone](https://www.linkedin.com/in/abhijit-tikone-684942241/)
+🔗 **LeetCode:** https://leetcode.com/u/abhijitLeet99/
 
 ---
 
