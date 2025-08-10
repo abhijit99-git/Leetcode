@@ -15,6 +15,6 @@ I'm a **Bachelor of Computer Applications (BCA)** graduate from India, passionat
 
 | Difficulty | Problems Solved |
 |------------|-----------------|
-| 🟢 Easy     | 113 / 883         |
-| 🟡 Medium   | 63 / 1871        |
-| 🔴 Hard     | 15 / 846          |
+| 🟢 Easy     | 124 / 883         |
+| 🟡 Medium   | 77 / 1871        |
+| 🔴 Hard     | 18 / 846          |
